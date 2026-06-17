@@ -5,6 +5,7 @@ import {
   LayoutDashboard,
   ScrollText,
   ShieldCheck,
+  Gauge,
   FileBarChart2,
   Bot,
   Database,
@@ -35,6 +36,7 @@ const sections: Section[] = [
     label: 'AI Governance',
     items: [
       { href: '/', label: 'Governance Dashboard', icon: LayoutDashboard },
+      { href: '/governance-analysis', label: 'Governance Analysis', icon: Gauge },
       { href: '/audit-log', label: 'Audit Log Explorer', icon: ScrollText },
       { href: '/policy-engine', label: 'Policy Engine', icon: ShieldCheck, badge: 3 },
     ],
