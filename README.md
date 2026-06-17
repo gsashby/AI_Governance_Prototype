@@ -9,6 +9,7 @@ A governance and auditability platform for AI systems running inside NICE CXone 
 | Feature | Description |
 |---|---|
 | **Governance Dashboard** | KPI cards, AI decision volume chart, active alerts feed, module health table, and AI-generated executive summary |
+| **AI Governance Analysis Dashboard** | Tabbed metrics catalog — Metering, Telemetry (raw events), Product Analytics, and GA-blocking recommended additions — with charts, audience / GA-blocking tags, and CSV catalog export |
 | **Audit Log Explorer** | Filterable, paginated event log for every AI decision — sortable columns, per-row detail drawer with session timeline and AI causal analysis, CSV/JSON export, and SIEM push (CEF format) |
 | **Policy Engine** | Create, toggle-enable/disable, and manage governance rules that trigger on AI events |
 | **Board Report Builder** | Step-by-step wizard to generate executive compliance reports with cryptographic audit certificate |
@@ -50,6 +51,7 @@ src/
 │   ├── (dashboard)/
 │   │   ├── layout.tsx          # Shell: Sidebar + TopHeader
 │   │   ├── page.tsx            # Governance Dashboard
+│   │   ├── governance-analysis/ # AI Governance Analysis Dashboard (metering / telemetry / analytics)
 │   │   ├── audit-log/          # Audit Log Explorer
 │   │   ├── policy-engine/      # Policy Engine
 │   │   ├── board-reports/      # Board Report Builder
