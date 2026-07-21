@@ -1,4 +1,4 @@
-# AI Trust Center — NICE CXone Mpower
+# AI Trust Center
 
 A governance and auditability platform for AI systems running inside NICE CXone Mpower. It provides real-time oversight of AI decision-making across Autopilot, Copilot, and Mpower Agent modules — covering audit logging, policy enforcement, compliance reporting, and model health monitoring.
 
