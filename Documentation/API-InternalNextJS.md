@@ -170,7 +170,7 @@ Pure function — no network call. Takes the first 5 events and formats them as 
 
 | CEF field | Source |
 |---|---|
-| `DeviceVendor` | `NICE CXone` (hardcoded) |
+| `DeviceVendor` | `Governance Platform` (hardcoded) |
 | `DeviceProduct` | `AI Trust Center` (hardcoded) |
 | `DeviceVersion` | `1.0` (hardcoded) |
 | `SignatureID` | `event.outcome.toUpperCase()` |
@@ -185,7 +185,7 @@ Pure function — no network call. Takes the first 5 events and formats them as 
 
 Example output line:
 ```
-CEF:0|NICE CXone|AI Trust Center|1.0|BLOCKED|inference|8|rt=1746800520000 suser=agent-abc123 dvc=GPT-4o Autopilot cs1=sess-xyz789 cs1Label=sessionId cs2=41.2% cs2Label=confidence cs3=bias-threshold;pii-detected cs3Label=policyViolations
+CEF:0|Governance Platform|AI Trust Center|1.0|BLOCKED|inference|8|rt=1746800520000 suser=agent-abc123 dvc=GPT-4o Autopilot cs1=sess-xyz789 cs1Label=sessionId cs2=41.2% cs2Label=confidence cs3=bias-threshold;pii-detected cs3Label=policyViolations
 ```
 
 ---

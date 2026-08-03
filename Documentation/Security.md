@@ -51,7 +51,7 @@ Any client can make unlimited requests to any endpoint. There is no throttling, 
 
 | Option | Notes |
 |---|---|
-| **NICE CXone SSO** | Most appropriate for the target environment — integrate via SAML 2.0 or OIDC against the CXone identity provider |
+| **Enterprise SSO** | Most appropriate for the target environment — integrate via SAML 2.0 or OIDC against the enterprise identity provider |
 | **Auth0 / Clerk / Cognito** | SaaS identity providers; fast to integrate with Next.js via their SDKs |
 | **Custom JWT** | Go API validates a signed JWT on each request; Next.js middleware passes the token through |
 

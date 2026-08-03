@@ -91,7 +91,7 @@ export function exportSingleEventCSV(event: AuditEvent) {
 
 export function buildSiemPayload(events: AuditEvent[]): string {
   return events.slice(0, 5).map((e) =>
-    `CEF:0|NICE CXone|AI Trust Center|1.0|${e.outcome.toUpperCase()}|${e.event_type}|${e.outcome === 'blocked' ? '8' : e.outcome === 'flagged' ? '5' : '2'}|` +
+    `CEF:0|Governance Platform|AI Trust Center|1.0|${e.outcome.toUpperCase()}|${e.event_type}|${e.outcome === 'blocked' ? '8' : e.outcome === 'flagged' ? '5' : '2'}|` +
     `rt=${new Date(e.event_time).getTime()} ` +
     `suser=${e.agent_id ?? 'unknown'} ` +
     `dvc=${e.model_name ?? 'unknown'} ` +

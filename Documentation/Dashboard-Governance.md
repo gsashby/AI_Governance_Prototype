@@ -3,7 +3,7 @@
 **Route:** `/` (root of the dashboard shell)  
 **File:** `apps/web/src/app/(dashboard)/page.tsx`
 
-The Governance Dashboard is the landing page of the AI Trust Center. It gives a real-time snapshot of AI decision-making health across all NICE CXone Mpower modules.
+The Governance Dashboard is the landing page of the AI Trust Center. It gives a real-time snapshot of AI decision-making health across all platform modules.
 
 ---
 
@@ -122,7 +122,7 @@ Sortable columns (via `useSortable` hook): Module, Model Version, Avg Confidence
 
 | Column | Source |
 |---|---|
-| Module | `model.name` — coloured badge (purple = Autopilot, blue = Copilot, teal = Mpower) |
+| Module | `model.name` — coloured badge (purple = Autopilot, blue = Copilot, teal = Agent Workflows) |
 | Model Version | `model.type` |
 | Coverage | Hardcoded `100%` |
 | Avg Conf. | `model.confidence_avg` (last 7 days from API) |

@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/nice-cx/ai-trust-center/api/internal/models"
-	"github.com/nice-cx/ai-trust-center/api/internal/repository"
+	"github.com/example/ai-trust-center/api/internal/models"
+	"github.com/example/ai-trust-center/api/internal/repository"
 )
 
 type AuditLogHandler struct {

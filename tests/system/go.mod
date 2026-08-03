@@ -1,4 +1,4 @@
-module github.com/nice-cx/ai-trust-center/tests/system
+module github.com/example/ai-trust-center/tests/system
 
 go 1.26
 

@@ -23,7 +23,7 @@ export default function TopHeader() {
           <path d="M12 2L2 7l10 5 10-5-10-5z" fill="white" />
           <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="white" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity=".7" />
         </svg>
-        <span>CXone Mpower</span>
+        <span>AI Trust Center</span>
       </div>
 
       {/* Right */}

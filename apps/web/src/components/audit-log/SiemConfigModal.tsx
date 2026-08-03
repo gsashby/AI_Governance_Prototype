@@ -16,11 +16,11 @@ export type SiemConfig = {
 };
 
 export const DEFAULT_SIEM_CONFIG: SiemConfig = {
-  name: 'NICE AI Trust Center → Splunk',
+  name: 'AI Trust Center → Splunk',
   endpointUrl: 'https://splunk.internal:8088/services/collector/event',
   hecToken: 'a1b2c3d4-e5f6-7890-abcd-ef1234567890',
   index: 'ai_governance',
-  source: 'nice-ai-trust-center',
+  source: 'ai-trust-center',
   sourcetype: '_json',
   format: 'CEF',
   batchSize: 500,

@@ -1,6 +1,6 @@
-# AI Trust Center — NICE CXone Mpower
+# AI Trust Center
 
-A governance and auditability platform for AI systems running inside NICE CXone Mpower. It provides real-time oversight of AI decision-making across Autopilot, Copilot, and Mpower Agent modules — covering audit logging, policy enforcement, compliance reporting, and model health monitoring.
+A governance and auditability platform for AI systems running inside an enterprise AI platform. It provides real-time oversight of AI decision-making across Autopilot, Copilot, and Agent Workflows modules — covering audit logging, policy enforcement, compliance reporting, and model health monitoring.
 
 ---
 
@@ -260,15 +260,15 @@ For full coverage details and instructions for adding new tests, see **[Document
 
 ## Design
 
-The UI matches the **NICE CXone Mpower** design language:
+The UI follows a consistent enterprise design language:
 
-- **Header**: Navy `#0B2D55` with centered CXone Mpower logo
+- **Header**: Navy `#0B2D55` with centered platform logo
 - **Sidebar**: White, 216px, grouped navigation sections with section labels
 - **Background**: Light gray `#F2F4F7`
 - **Cards**: White with `#E5E7EB` borders and subtle shadow
 - **Primary action**: `#2563EB` (blue)
 - **AI actions**: `#7C3AED` (purple) — Summarize with AI, Explain with AI
-- **Module badges**: Purple (Autopilot), Blue (Copilot), Teal (Mpower Agent)
+- **Module badges**: Purple (Autopilot), Blue (Copilot), Teal (Agent Workflows)
 - **Status badges**: Green (healthy/allowed), Yellow (flagged/watch), Red (blocked/critical), Blue (auto-applied)
 
 ---

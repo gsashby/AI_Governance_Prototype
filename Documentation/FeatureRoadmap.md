@@ -111,7 +111,7 @@ Upgrade `useAlerts` from a 30-second poll to a WebSocket push. New `blocked` or 
 ---
 
 **Cost & Usage Tracking**  
-A new KPI card (and optionally a sub-page) that shows estimated API cost per model, token usage breakdown, and inference volume by module (Autopilot / Copilot / Mpower Agent) over the last 7 and 30 days. Data can be approximated from `audit_events` (model_name + event_type = inference). This is a frequent ask in AI governance reviews.
+A new KPI card (and optionally a sub-page) that shows estimated API cost per model, token usage breakdown, and inference volume by module (Autopilot / Copilot / Agent Workflows) over the last 7 and 30 days. Data can be approximated from `audit_events` (model_name + event_type = inference). This is a frequent ask in AI governance reviews.
 
 *Effort: 1 day frontend (dashboard card) + 1 day API aggregation query*
 

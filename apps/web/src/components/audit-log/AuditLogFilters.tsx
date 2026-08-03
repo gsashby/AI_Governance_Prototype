@@ -37,7 +37,7 @@ export default function AuditLogFilters({ filters, onChange, totalCount }: Props
         <option value="">All Modules</option>
         <option value="allowed">Autopilot</option>
         <option value="flagged">Copilot</option>
-        <option value="blocked">Mpower Agent</option>
+        <option value="blocked">Agent Workflows</option>
       </select>
 
       <select value={filters.eventType ?? ''} onChange={(e) => onChange({ eventType: e.target.value || undefined })} className={selectStyle} style={{ width: 140, ...selectBg }}>

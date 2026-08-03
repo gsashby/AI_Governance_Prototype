@@ -6,7 +6,7 @@ import QueryProvider from '@/components/shared/QueryProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Trust Center — NICE CXone',
+  title: 'AI Trust Center',
   description: 'Enterprise AI Governance and Observability Platform',
 };
 

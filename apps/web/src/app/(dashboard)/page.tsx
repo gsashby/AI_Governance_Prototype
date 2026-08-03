@@ -211,7 +211,7 @@ export default function GovernanceDashboard() {
               title="Compliance Coverage"
               value="100%"
               trend="stable"
-              delta="Autopilot · Copilot · Mpower"
+              delta="Autopilot · Copilot · Agent Workflows"
               accentGradient="linear-gradient(90deg,#0D9488,#2DD4BF)"
               iconBg="#F0FDFA"
               valueColor="#0D9488"

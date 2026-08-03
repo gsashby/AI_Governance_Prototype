@@ -10,31 +10,31 @@ type Props = {
 
 const moduleDescriptions: Record<string, string> = {
   autopilot:
-    'NICE CXone Autopilot is a fully autonomous AI agent that handles end-to-end customer interactions without human intervention. It resolves inquiries across voice and digital channels using retrieval-augmented generation and dynamic policy enforcement.',
+    'Autopilot is a fully autonomous AI agent that handles end-to-end customer interactions without human intervention. It resolves inquiries across voice and digital channels using retrieval-augmented generation and dynamic policy enforcement.',
   copilot:
-    'NICE CXone Copilot assists live agents in real time — surfacing next-best-action recommendations, auto-summarising call context, and suggesting responses. It augments human judgement rather than replacing it.',
-  mpower:
-    'NICE CXone mPower orchestrates AI workflows across the contact centre, coordinating Autopilot and Copilot tasks, managing escalation paths, and aggregating performance signals into governance dashboards.',
+    'Copilot assists live agents in real time — surfacing next-best-action recommendations, auto-summarising call context, and suggesting responses. It augments human judgement rather than replacing it.',
+  agentWorkflows:
+    'Agent Workflows orchestrates AI workflows across the contact centre, coordinating Autopilot and Copilot tasks, managing escalation paths, and aggregating performance signals into governance dashboards.',
 };
 
 function moduleDesc(name: string): string {
   const lower = name.toLowerCase();
   if (lower.includes('autopilot')) return moduleDescriptions.autopilot;
   if (lower.includes('copilot'))   return moduleDescriptions.copilot;
-  return moduleDescriptions.mpower;
+  return moduleDescriptions.agentWorkflows;
 }
 
 const moduleStyles: Record<string, string> = {
   autopilot: 'bg-[#EDE9FE] text-[#6D28D9]',
   copilot:   'bg-[#DBEAFE] text-[#1D4ED8]',
-  mpower:    'bg-[#CCFBF1] text-[#0F766E]',
+  agentWorkflows:    'bg-[#CCFBF1] text-[#0F766E]',
 };
 
 function moduleColor(name: string) {
   const lower = name.toLowerCase();
   if (lower.includes('autopilot')) return moduleStyles.autopilot;
   if (lower.includes('copilot'))   return moduleStyles.copilot;
-  return moduleStyles.mpower;
+  return moduleStyles.agentWorkflows;
 }
 
 function GovGauge({ score }: { score: number }) {

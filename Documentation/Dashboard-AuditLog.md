@@ -47,7 +47,7 @@ Component: `AuditLogFilters`
 | Control | Maps to | API param |
 |---|---|---|
 | Search input (free text) | `filters.search` | `search` (ILIKE on `action`, `agent_id`, `session_id`) |
-| Module dropdown | `filters.outcome` | `outcome` — options labelled as module names but map to outcome values (`Autopilot` → `allowed`, `Copilot` → `flagged`, `Mpower Agent` → `blocked`) |
+| Module dropdown | `filters.outcome` | `outcome` — options labelled as module names but map to outcome values (`Autopilot` → `allowed`, `Copilot` → `flagged`, `Agent Workflows` → `blocked`) |
 | Action dropdown | `filters.eventType` | `event_type` |
 | Regulations dropdown | UI only | not wired to API |
 | Model ID (URL param) | `filters.modelId` | `model_id` — populated from `?model_id=` on load; enables deep-link from Model Registry detail drawer |
@@ -181,12 +181,12 @@ Pre-populated with a Splunk HTTP Event Collector (HEC) demo configuration. All f
 | Section | Field | Type | Default |
 |---|---|---|---|
 | Status | Integration Status | Toggle | Enabled |
-| Integration Details | Integration Name | Text | `NICE AI Trust Center → Splunk` |
+| Integration Details | Integration Name | Text | `AI Trust Center → Splunk` |
 | Endpoint | HEC Endpoint URL | Text | `https://splunk.internal:8088/services/collector/event` |
 | Endpoint | HEC Token | Password (show/hide) | demo UUID |
 | Endpoint | Verify SSL Certificate | Toggle | On |
 | Data Settings | Index | Text | `ai_governance` |
-| Data Settings | Source | Text | `nice-ai-trust-center` |
+| Data Settings | Source | Text | `ai-trust-center` |
 | Data Settings | Sourcetype | Text | `_json` |
 | Data Settings | Event Format | Select: CEF / JSON | `CEF` |
 | Data Settings | Batch Size | Number (1–5000) | `500` |

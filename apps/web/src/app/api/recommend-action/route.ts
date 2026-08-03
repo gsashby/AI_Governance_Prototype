@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
 
   const { recommendation, dashboardContext } = await req.json();
 
-  const prompt = `You are an AI governance advisor for NICE CXone Mpower, an enterprise AI platform used in contact centres. A governance administrator is reviewing the following recommended action item on their dashboard.
+  const prompt = `You are an AI governance advisor for an enterprise AI platform used in contact centres. A governance administrator is reviewing the following recommended action item on their dashboard.
 
 Recommendation:
 - Category: ${recommendation.category}

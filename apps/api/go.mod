@@ -1,4 +1,4 @@
-module github.com/nice-cx/ai-trust-center/api
+module github.com/example/ai-trust-center/api
 
 go 1.26.3
 

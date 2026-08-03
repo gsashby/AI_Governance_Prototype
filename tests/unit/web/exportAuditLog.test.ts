@@ -28,7 +28,7 @@ function makeEvent(overrides: Partial<AuditEvent> = {}): AuditEvent {
 describe('buildSiemPayload — CEF format', () => {
   it('starts with CEF:0 header', () => {
     const payload = buildSiemPayload([makeEvent()])
-    expect(payload).toMatch(/^CEF:0\|NICE CXone\|AI Trust Center\|1\.0\|/)
+    expect(payload).toMatch(/^CEF:0\|Governance Platform\|AI Trust Center\|1\.0\|/)
   })
 
   it('includes the outcome in uppercase after the version field', () => {

@@ -3,7 +3,7 @@
 **Route:** `/policy-engine`  
 **File:** `apps/web/src/app/(dashboard)/policy-engine/page.tsx`
 
-The Policy Engine is the real-time governance gate that evaluates every AI request passing through the NICE CXone Mpower trust layer. It allows administrators to create, edit, delete, and toggle the governance rules that control AI behaviour across all Autopilot, Copilot, and Mpower Agent modules.
+The Policy Engine is the real-time governance gate that evaluates every AI request passing through the platform's trust layer. It allows administrators to create, edit, delete, and toggle the governance rules that control AI behaviour across all Autopilot, Copilot, and Agent Workflows modules.
 
 ---
 

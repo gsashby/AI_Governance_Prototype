@@ -10,14 +10,14 @@ import ModuleHealthDrawer from '@/components/dashboard/ModuleHealthDrawer';
 const moduleStyles: Record<string, string> = {
   autopilot: 'bg-[#EDE9FE] text-[#6D28D9]',
   copilot:   'bg-[#DBEAFE] text-[#1D4ED8]',
-  mpower:    'bg-[#CCFBF1] text-[#0F766E]',
+  agentWorkflows: 'bg-[#CCFBF1] text-[#0F766E]',
 };
 
 function moduleColor(name: string) {
   const lower = name.toLowerCase();
   if (lower.includes('autopilot')) return moduleStyles.autopilot;
   if (lower.includes('copilot'))   return moduleStyles.copilot;
-  return moduleStyles.mpower;
+  return moduleStyles.agentWorkflows;
 }
 
 function statusBadge(score: number) {
@@ -51,7 +51,7 @@ export default function ModelHealthTable({ days = 7 }: { days?: number }) {
             <table className="w-full border-collapse">
               <thead>
                 <tr className="border-b-2 border-[#E5E7EB] bg-[#F9FAFB] text-left">
-                  <SortTh label="Module"        colKey="name"             sort={sort} onToggle={toggle} className="pl-4 pr-3.5" tooltip="The AI module (e.g. Autopilot, Copilot, mPower) being monitored. Click to sort." />
+                  <SortTh label="Module"        colKey="name"             sort={sort} onToggle={toggle} className="pl-4 pr-3.5" tooltip="The AI module (e.g. Autopilot, Copilot, Agent Workflows) being monitored. Click to sort." />
                   <SortTh label="Model Version" colKey="type"             sort={sort} onToggle={toggle} className="px-3.5"     tooltip="The underlying AI model version powering this module. Click to sort." />
                   <th title="Percentage of module interactions captured in the audit log. 100% means every request and response is recorded." className="px-3.5 py-2.5 text-[11px] font-bold uppercase tracking-[.05em] text-[#6B7280] whitespace-nowrap">Coverage</th>
                   <SortTh label="Avg Conf."     colKey="confidence_avg"   sort={sort} onToggle={toggle} className="px-3.5"     tooltip="Average confidence score (0–1) of AI responses from this module. Higher values indicate the model is producing more certain outputs. Click to sort." />

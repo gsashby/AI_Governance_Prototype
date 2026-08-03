@@ -116,7 +116,7 @@ client.messages.create({
 
 ### Prompt structure
 
-The prompt instructs Claude to act as an AI governance advisor for NICE CXone Mpower. It includes the full recommendation (category, priority, title, module, detail) and the current dashboard context values. Claude is told to respond with **valid JSON only** — no prose outside the object.
+The prompt instructs Claude to act as an AI governance advisor for the enterprise AI platform. It includes the full recommendation (category, priority, title, module, detail) and the current dashboard context values. Claude is told to respond with **valid JSON only** — no prose outside the object.
 
 Requested output structure:
 ```json

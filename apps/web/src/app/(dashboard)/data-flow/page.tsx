@@ -114,7 +114,7 @@ export default function DataFlowPage() {
         actions={
           <div className="flex items-center gap-2">
             <a
-              href="https://www.niceactimize.com/terms-and-conditions/ai-services-policy"
+              href="https://example.com/terms-and-conditions/ai-services-policy"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-[5px] border border-[#D1D5DB] bg-white font-semibold text-[#2563EB] hover:bg-[#EFF6FF] hover:border-[#BFDBFE] transition-all"
@@ -142,7 +142,7 @@ export default function DataFlowPage() {
       <div className="rounded-lg border border-[#E5E7EB] bg-white shadow-[0_1px_3px_rgba(0,0,0,.06)]" style={{ padding: '16px 20px' }}>
         <div className="mb-2 text-[12px] font-bold text-[#111827]">What this diagram shows</div>
         <p className="text-[12px] leading-relaxed text-[#4B5563]">
-          Every AI decision processed by NICE CXone travels through a two-layer governance pipeline before it reaches the end user.
+          Every AI decision processed by the platform travels through a two-layer governance pipeline before it reaches the end user.
           The <span className="font-semibold text-[#2563EB]">Request Pipeline</span> (top row) handles the real-time path: an AI agent submits
           a request → the Policy Engine applies all active governance rules → compliant requests reach the AI Model → the Response Filter
           validates the output → the governed response is delivered to the client.

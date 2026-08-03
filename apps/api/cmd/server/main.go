@@ -10,9 +10,9 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/recover"
 	"github.com/joho/godotenv"
 
-	"github.com/nice-cx/ai-trust-center/api/internal/config"
-	"github.com/nice-cx/ai-trust-center/api/internal/handlers"
-	"github.com/nice-cx/ai-trust-center/api/internal/repository"
+	"github.com/example/ai-trust-center/api/internal/config"
+	"github.com/example/ai-trust-center/api/internal/handlers"
+	"github.com/example/ai-trust-center/api/internal/repository"
 )
 
 func main() {

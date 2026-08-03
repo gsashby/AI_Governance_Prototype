@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
 
   const { request, reportContext } = await req.json();
 
-  const prompt = `You are an AI governance report assistant for NICE CXone Mpower's AI Trust Center platform. Your sole purpose is to help compliance officers add relevant content to their AI governance compliance reports.
+  const prompt = `You are an AI governance report assistant for the AI Trust Center platform. Your sole purpose is to help compliance officers add relevant content to their AI governance compliance reports.
 
 IMPORTANT — Topic guard: Before generating any content, assess whether the user's request is directly related to one of these topics:
 - AI governance, AI compliance, or AI risk management

@@ -70,7 +70,7 @@ go test ./... -v -timeout 30s
 
 ## Unit tests — Go (`tests/unit/go`)
 
-**Module:** `github.com/nice-cx/ai-trust-center/tests/unit`  
+**Module:** `github.com/example/ai-trust-center/tests/unit`  
 **Runner:** `go test`  
 **Requires:** nothing (no database, no network)  
 **Count:** 12 tests
@@ -137,7 +137,7 @@ Tests the `buildSiemPayload` function (`apps/web/src/lib/exportAuditLog.ts`) whi
 
 | Group | Tests |
 |---|---|
-| CEF format | Header starts with `CEF:0\|NICE CXone\|AI Trust Center\|1.0\|`, outcome in uppercase, event_type included |
+| CEF format | Header starts with `CEF:0\|Governance Platform\|AI Trust Center\|1.0\|`, outcome in uppercase, event_type included |
 | Severity mapping | `blocked` → `8`, `flagged` → `5`, `allowed` → `2` |
 | Extension fields | `rt=` epoch ms, `suser=` agent ID, `dvc=` model name, `cs1=` session ID + label, `cs2=` confidence %, `cs3=` violations joined with `;` |
 | Edge cases | Empty violations, blank agent_id/model_name (documents `??` operator behaviour), multi-event output, 5-event cap, empty input |
@@ -159,7 +159,7 @@ Tests the core sorting algorithm from `apps/web/src/lib/useSortable.ts`. Because
 
 ## System tests (`tests/system`)
 
-**Module:** `github.com/nice-cx/ai-trust-center/tests/system`  
+**Module:** `github.com/example/ai-trust-center/tests/system`  
 **Runner:** `go test`  
 **Requires:** Docker services running + Go API on `:8080` + seeded data  
 **Count:** 59 tests (33 functional + 26 security)  

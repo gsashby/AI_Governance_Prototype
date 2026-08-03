@@ -1,6 +1,6 @@
 # Design System & Component Reference
 
-The UI follows the NICE CXone Mpower design language. All styling is done with **Tailwind CSS v4** utility classes and inline styles — there is no separate design token file or CSS custom properties beyond the two root variables in `globals.css`.
+The UI follows a consistent enterprise design language. All styling is done with **Tailwind CSS v4** utility classes and inline styles — there is no separate design token file or CSS custom properties beyond the two root variables in `globals.css`.
 
 ---
 
@@ -59,7 +59,7 @@ The UI follows the NICE CXone Mpower design language. All styling is done with *
 |---|---|---|
 | Autopilot (name contains "autopilot") | `#EDE9FE` | `#6D28D9` |
 | Copilot (name contains "copilot") | `#DBEAFE` | `#1D4ED8` |
-| Mpower Agent (default) | `#CCFBF1` | `#0F766E` |
+| Agent Workflows (default) | `#CCFBF1` | `#0F766E` |
 
 ### KPI card accent gradients
 

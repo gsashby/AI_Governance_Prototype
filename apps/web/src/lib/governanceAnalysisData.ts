@@ -437,7 +437,7 @@ export const tokensByFeature = [
   { feature: 'AI Insights', tokens: 11.2 },
   { feature: 'Autopilot', tokens: 9.6 },
   { feature: 'Copilot', tokens: 7.1 },
-  { feature: 'Mpower Agent', tokens: 4.3 },
+  { feature: 'Agent Workflows', tokens: 4.3 },
 ];
 
 // Per-tenant utilization vs configured limit (%).

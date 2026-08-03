@@ -341,7 +341,7 @@ export default function ReportPreview({ data, onBack }: Props) {
               <path d="M12 2L2 7l10 5 10-5-10-5z" fill="white"/>
               <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="white" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity=".7"/>
             </svg>
-            <span style={{ color: 'rgba(255,255,255,.8)', fontSize: 13, fontWeight: 600, letterSpacing: '-.1px' }}>NICE CXone Mpower · AI Trust Center</span>
+            <span style={{ color: 'rgba(255,255,255,.8)', fontSize: 13, fontWeight: 600, letterSpacing: '-.1px' }}>AI Trust Center</span>
           </div>
           <h1 style={{ color: '#fff', fontSize: 22, fontWeight: 700, margin: 0, marginBottom: 12, letterSpacing: '-.4px' }}>
             {config.title}
@@ -564,7 +564,7 @@ export default function ReportPreview({ data, onBack }: Props) {
           {/* Footer */}
           <div style={{ borderTop: '1px solid #E5E7EB', paddingTop: 16, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <span style={{ fontSize: 11, color: '#9CA3AF' }}>
-              NICE CXone Mpower · AI Trust Center · Platform v2.8.0
+              AI Trust Center · Platform v2.8.0
             </span>
             <span style={{ fontSize: 11, color: '#9CA3AF', fontFamily: 'monospace' }}>
               {certificate.id}

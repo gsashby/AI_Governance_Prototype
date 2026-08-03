@@ -8,7 +8,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/nice-cx/ai-trust-center/api/internal/models"
+	"github.com/example/ai-trust-center/api/internal/models"
 )
 
 type PolicyRepo struct {
